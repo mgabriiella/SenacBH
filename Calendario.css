@@ -1,0 +1,130 @@
+:root {
+  --laranja-senac:#CD722B;
+  --branco:white;
+  --AzulPrincipal:#014A8E;
+  --preto:#000000;
+  --AzulSecundario:#1C6DB9;
+  --brano-cinza:#E0E0E0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.cabecalho {
+  display: flex;
+  background-image: url('/img/fundo-header.png');
+  border-bottom: 2px solid var(--laranja-senac);
+  padding: 1% 0;
+  height: 14vh;
+  width:100% ;
+}
+
+.cabecalho-logos{
+  width: 94%;
+  height: auto;
+  .logo-senac{
+    position: relative;
+    left: 93%;
+    bottom: 45%;
+    height: auto;
+  }
+  .logo-beauty-hub{
+    position: relative;
+    right: 2%;
+    height: auto;
+  }
+}
+
+                        /* Fazendo o aside(side bar)  */
+                        
+.sidebar {
+  position: relative;
+  top: 18.3vh;
+  right: 161.2vh;
+  background-color: var(--AzulPrincipal);
+  height: 81.7vh;
+  width: 14%;
+}      
+
+.sidebar h2{
+  color: var(--branco);
+  text-align: center;
+  padding: 8% 0 10% 0;
+  margin: 0;
+}
+
+.principal{
+  color: var(--branco) ;
+  background-color: var(--AzulSecundario);
+  padding: 2% 0 2% 10%;
+}
+
+.sidebar .fa-calendar-days,.fa-user,.fa-bell,.fa-scissors,.fa-question,.fa-power-off{
+  margin-left: 10%;
+  font-size:150%;
+  color: var(--branco)
+} 
+
+.sidebar .fa-star, .fa-gear{
+  margin-left:8% ;
+  font-size:150%;
+  color: var(--branco);
+}
+
+#calendar{
+  background-color:var(--AzulSecundario);
+  border-radius: 10px;
+  padding: 2% 0 2% 2%;
+  margin-left: 6.3%;
+}
+
+.sidebar ul{
+  list-style: none;
+}
+
+.sidebar-list{
+  margin:10% 0.5% 0 0;
+}
+
+.sidebar button{
+
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.button-Sair{
+  font-size: 120%;
+}
+
+.button-Sair,.fa-power-off{
+  background: none;
+  border: none;
+  color: var(--branco);
+  position: relative;
+  top: 27%;
+  left: 20%;
+}
+
+/* Fazendo o main */
+
+.conteudo-principal{
+  text-align: center;
+  justify-content: center;
+}
+
+h1{
+  font-size:120%;
+}
+
+.p-main{
+  color: var(--AzulSecundario);
+  opacity: 80%;
+}
+
+

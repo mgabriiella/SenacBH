@@ -5,18 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/Calendario.css ">
   <title>Calendário</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <header class="cabecalho">
-      <img src="/img/fundo.jpg" alt="logo beauty hub"><img src="/" alt="">
-
-      <hr>
+    <div class="cabecalho-logos">
+      <img src="/img/logo-senac.png" alt="" class="logo-senac"> 
+      <img src="/img/logo.png" alt="Logo beauty-hub" class="logo-beauty-hub">
+    </div>
   </header>
-  <main class="principal">
+  <aside class="sidebar">
+     <h2>Bem vinda, Maria!</h2>
+     <p class="principal">PRINCIPAL</p>
+     <ul>
+       <li id="calendar" class="sidebar-list"><i class="fa-solid fa-calendar-days"></i><a href="#"> Calendario</a></li>
+       <li class="sidebar-list"><i class="fa-solid fa-user"></i><a href="#"> Clientes</a></li>
+       <li class="sidebar-list"><i class="fa-solid fa-bell"></i><a href="#"> Notificações</a></li>
+       <li class="sidebar-list"><i class="fa-solid fa-star"></i><a href="#"> Avaliações</a></li>
+       <li class="sidebar-list"><i class="fa-solid fa-scissors"></i><a href="#"> Serviços </a></li>
+       <li class="sidebar-list"><i class="fa-solid fa-question"></i><a href="#"> Ajuda </a></li>
+       <li class="sidebar-list"><i class="fa-solid fa-gear"></i><a href="#"> Configurações </a></li>
+     </ul>
+     <i id="poweroff-icon" class="fa-solid fa-power-off"></i> <button  class="button-Sair" >Sair</button>
+ </aside> 
+  <main class="conteudo-principal">
+    
+    <h1>Agendamentos</h1>
+    <p class="p-main">Seu Calendário de Atendimentos</p>
 
   </main>
-  <footer class="rodape">
-
-  </footer>
 </body>
 </html>
